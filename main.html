@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>Simple Calculator</title>
+
+<link href="style.css" rel="stylesheet">
+
+<script src="process.js"></script>
+</head>
+
+<body>
+<form>
+<table border     ="1" 
+       cellspacing="0"
+       align      ="center"
+       width      ="24%"
+       bordercolor="black">
+
+<tr class="FirstRow">
+ <th colspan="2" class="header">Simple Calculator</th>
+</tr>
+
+<tr>
+ <td><label for="n1">Number1</label></td>
+ <td><input type="text" id="n1" /></td>
+</tr>
+
+<tr>
+ <td><label for="n2">Number2</label></td>
+ <td><input type="text" id="n2" /></td>
+</tr>
+
+<tr>
+ <td><label for="s">Sum</label></td>
+ <td><input type="text" id="s" readonly /></td>
+</tr>
+
+<tr>
+ <td colspan="2" align="right">
+   <input type="reset"  value="Clear" class="btn2" />
+   <input type="button" value="Calculate" onclick="calc()" class="btn1" />
+ </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
