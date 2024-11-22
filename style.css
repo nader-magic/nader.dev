@@ -1,0 +1,63 @@
+body{
+  background-color: black !important;
+  color: aliceblue;
+  
+}
+
+table{
+  height:220px;
+  border-color: aliceblue;
+}
+
+.header{
+  font-size:26pt;
+  color:white;
+  background-color:rgb(0, 54, 108);
+  
+}
+
+label, input[type="text"]{
+  font-size:13pt;
+  font-family:calibri;
+  margin-left:6px;
+}
+
+input[type="text"]{
+  width:110px;
+  border-color:black;
+  border-width:1px;
+  padding-left:8px;
+  transition:all 1s;
+}
+
+input[type="text"]:focus, input[type="text"]:hover{
+  border-radius:25px;
+  transform:scale(1.1, 1.1);
+}
+
+#s{
+  background-color:rgb(215, 0, 0);
+  color:white;
+}
+
+input[type="button"], input[type="reset"]{
+  color:white;
+  background-color:rgb(0, 54, 108);
+  font-size:13pt;
+  font-weight:bold;
+  border-radius:25px;
+  margin-right:8px;
+  transition: background-color 1s;
+}
+
+.btn1{
+  width:120px;
+}
+
+.btn2{
+  width:80px;
+}
+input[type="button"]:hover, input[type="reset"]:hover{
+  cursor:pointer;
+  background-color:rgb(215, 0, 0);
+}
